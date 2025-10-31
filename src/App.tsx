@@ -13,7 +13,7 @@ function App() {
 
     try {
       const response = await fetch(
-        'http://45.152.243.133:5678/webhook/video_yap',
+        'https://n8n.aytbb.com.tr/webhook/video_yap',
         {
           method: 'POST',
           headers: {
