@@ -13,7 +13,7 @@ function App() {
 
     try {
       const response = await fetch(
-        'https://argillaceous-salena-nonblindingly.ngrok-free.dev/webhook/video_yap',
+        'http://45.152.243.133:5678/webhook/video_yap',
         {
           method: 'POST',
           headers: {
